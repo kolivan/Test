@@ -9,47 +9,40 @@ from selenium.webdriver.common.keys import Keys
 
 class CalculatePage(BasePage):
 
-    driver = webdriver.Firefox()
+    def __init__(self):
+        super(CalculatePage).__init__()
 
-    def __init__(self, driver):
-        super(CalculatePage).__init__(driver)
+    def click_country_dropdown(self, driver):
+        return driver.find_element_by_class_name('select2-selection__arrow').click()
 
-    country = driver.find_element_by_class_name('select2-selection__arrow')
+    def input_country_name(self, driver, input):
+        WebDriverWait(driver, 2)\
+            .until(EC.presence_of_element_located((By.XPATH, "//input[@class='select2-search__field']")))\
+            .send_keys(input, Keys.ENTER)
 
-    selectedCountry = WebDriverWait(driver, 2).until(
-        EC.presence_of_element_located((By.XPATH, "//input[@class='select2-search__field']")))
+    def set_auto_delivery_mode(self, driver):
+        WebDriverWait(driver, 5)\
+            .until(EC.visibility_of_element_located((By.XPATH, '//span[contains(text(), "Авто")]')))\
+            .click()
 
-    deliveryModeAuto = WebDriverWait(driver, 5).until(
-        EC.visibility_of_element_located((By.XPATH, '//span[contains(text(), "Авто")]')))
+    def set_train_delivery_mode(self, driver):
+        WebDriverWait(driver, 5)\
+            .until(EC.visibility_of_element_located((By.XPATH, '//span[contains(text(), "Ж/Д")]')))\
+            .click()
 
-    deliveryModeTrain = WebDriverWait(driver, 5).until(
-        EC.visibility_of_element_located((By.XPATH, '//span[contains(text(), "Ж/Д")]')))
+    def set_plane_delivery_mode(self, driver):
+        WebDriverWait(driver, 5)\
+            .until(EC.visibility_of_element_located((By.XPATH, '//span[contains(text(), "Авиа")]')))\
+            .click()
 
-    deliveryModePlane = WebDriverWait(driver, 5).until(
-        EC.visibility_of_element_located((By.XPATH, '//span[contains(text(), "Авиа")]')))
+    def get_delivery_time(self, driver):
+        return WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.XPATH, '//li[1]/p/span[@class="js_delivery_time"]'))).text
 
-    deliveryTime = WebDriverWait(driver, 5).until(
-        EC.visibility_of_element_located((By.XPATH, '//li[1]/p/span[@class="js_delivery_time"]')))
+    def input_weight(self, driver, weight):
+        driver.find_element_by_xpath('//div[@class="input-box"][2]/input[@name="weight"]').send_keys(weight)
 
-    deliveryPrice = WebDriverWait(driver, 5).until(
-        EC.visibility_of_element_located((By.XPATH, '//li[3]/p/span[@class="js_price_delivery"]')))
+    def get_cost(self, driver):
+        return WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.XPATH, '//div/p/span[@class="js_total_cost"]'))).text
 
-    weight = driver.find_elements_by_xpath('//div[@class="input-box"][2]/input[@class="valid"]')
-
-    def input_text(self, locator, input):
-        locator.send_keys(input)
-
-    def send_enter(self, locator):
-        locator.send_keys(Keys.ENTER)
-
-    def click_element(self, locator):
-        locator.click()
-
-    def get_text(self, locator):
-        locator.text
-
-
-
-
-
-
+    def get_price(self, driver):
+        return WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.XPATH, '//li[3]/p/span[@class="js_price_delivery"]'))).text
