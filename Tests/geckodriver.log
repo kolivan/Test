@@ -2289,3 +2289,656 @@ modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/a
 1506639170847	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
 1506639171228	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
 1506639171996	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506639447766	geckodriver	INFO	geckodriver 0.18.0
+1506639447774	geckodriver	INFO	Listening on 127.0.0.1:59827
+1506639449843	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506639450417	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506639451203	Marionette	INFO	Enabled via --marionette
+[GPU 11800] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7916] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7916] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506639455212	Marionette	INFO	Listening on port 59836
+1506639455221	Marionette	INFO	Listening on port 59836
+1506639455588	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506639455641	Marionette	DEBUG	loaded listener.js
+1506639455670	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506639456067	addons.productaddons	ERROR	Request failed certificate checks: [Exception... "Certificate checks failed. See previous errors for details."  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/CertUtils.jsm :: validateCert :: line 113"  data: no]
+1506639457310	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506639457311	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506639458943	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506639458952	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506639459297	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://staticxx.facebook.com/connect/xd_arbiter/r/5oivrH7Newv.js?version=42#channel=f36355bf9f4307e&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506639459300	Marionette	DEBUG	Received DOM event "pageshow" for "http://staticxx.facebook.com/connect/xd_arbiter/r/5oivrH7Newv.js?version=42#channel=f36355bf9f4307e&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506639460018	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506639460039	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://annodanini.it-devgroup.com/"
+1506639460069	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/5oivrH7Newv.js?version=42#channel=f36355bf9f4307e&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506639460070	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/5oivrH7Newv.js?version=42#channel=f36355bf9f4307e&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506639460470	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2F5oivrH7Newv.js%3Fversion%3D42%23cb%3Df239e2cb8c03cd4%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff36355bf9f4307e%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506639460473	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2F5oivrH7Newv.js%3Fversion%3D42%23cb%3Df239e2cb8c03cd4%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff36355bf9f4307e%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506639460569	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506639460928	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506639461639	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506639652081	geckodriver	INFO	geckodriver 0.18.0
+1506639652098	geckodriver	INFO	Listening on 127.0.0.1:60132
+1506639653901	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506639654979	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506639655917	Marionette	INFO	Enabled via --marionette
+[GPU 8776] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10896] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10896] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506639660141	Marionette	INFO	Listening on port 60140
+1506639660154	Marionette	INFO	Listening on port 60140
+1506639660810	addons.productaddons	ERROR	Request failed certificate checks: [Exception... "Certificate checks failed. See previous errors for details."  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/CertUtils.jsm :: validateCert :: line 113"  data: no]
+1506639661256	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506639661325	Marionette	DEBUG	loaded listener.js
+1506639661363	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506639664732	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506639664732	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506639666320	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506639666335	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506639667194	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506639667233	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://annodanini.it-devgroup.com/"
+1506639667297	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://staticxx.facebook.com/connect/xd_arbiter/r/5oivrH7Newv.js?version=42#channel=f233d22190f4222&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506639667299	Marionette	DEBUG	Received DOM event "pageshow" for "http://staticxx.facebook.com/connect/xd_arbiter/r/5oivrH7Newv.js?version=42#channel=f233d22190f4222&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506639667365	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/5oivrH7Newv.js?version=42#channel=f233d22190f4222&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506639667367	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/5oivrH7Newv.js?version=42#channel=f233d22190f4222&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506639667436	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2F5oivrH7Newv.js%3Fversion%3D42%23cb%3Df1f3be96caf3cd%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff233d22190f4222%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506639667440	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2F5oivrH7Newv.js%3Fversion%3D42%23cb%3Df1f3be96caf3cd%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff233d22190f4222%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506639667622	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506639668016	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506639668759	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506920113626	geckodriver	INFO	geckodriver 0.18.0
+1506920113646	geckodriver	INFO	Listening on 127.0.0.1:51367
+1506920115378	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506920119199	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506920120266	Marionette	INFO	Enabled via --marionette
+[Child 6088] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6088] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506920128416	Marionette	INFO	Listening on port 51377
+1506920128522	Marionette	INFO	Listening on port 51377
+1506920129319	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506920129382	Marionette	DEBUG	loaded listener.js
+1506920129474	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506920131465	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506920131466	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506920168506	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506920168515	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506920169267	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f160dec64d0243a&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506920169272	Marionette	DEBUG	Received DOM event "pageshow" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f160dec64d0243a&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506920169276	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f160dec64d0243a&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506920169278	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f160dec64d0243a&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506920178670	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506920178693	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://annodanini.it-devgroup.com/"
+1506920178983	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df26775c72d6ef42%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff160dec64d0243a%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506920178987	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df26775c72d6ef42%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff160dec64d0243a%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506920179649	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506920180111	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506920181142	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506920182496	geckodriver	INFO	geckodriver 0.18.0
+1506920182505	geckodriver	INFO	Listening on 127.0.0.1:51548
+1506920184561	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506920185994	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506920186819	Marionette	INFO	Enabled via --marionette
+[Child 9236] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506920195183	Marionette	INFO	Listening on port 51558
+1506920195188	Marionette	INFO	Listening on port 51558
+1506920196144	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506920197669	Marionette	DEBUG	loaded listener.js
+1506920197715	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506920199596	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506920199597	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506920216922	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506920216932	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506920217119	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f2eec6df983b53e&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506920217122	Marionette	DEBUG	Received DOM event "pageshow" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f2eec6df983b53e&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506920217367	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f2eec6df983b53e&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506920217369	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f2eec6df983b53e&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506920223956	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506920223988	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://annodanini.it-devgroup.com/"
+1506920224171	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df1de8909143b7de%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff2eec6df983b53e%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506920224175	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df1de8909143b7de%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff2eec6df983b53e%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506920225323	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506920225677	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506920226420	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506921551055	geckodriver	INFO	geckodriver 0.18.0
+1506921551077	geckodriver	INFO	Listening on 127.0.0.1:53279
+1506921552962	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506921554613	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506921555832	Marionette	INFO	Enabled via --marionette
+1506921570974	Marionette	INFO	Listening on port 53287
+1506921570980	Marionette	INFO	Listening on port 53287
+1506921571335	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506921571380	Marionette	DEBUG	loaded listener.js
+1506921571450	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506921573443	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506921573444	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506921618383	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506921618397	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506921618712	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f684ad1946cfd8&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506921618713	Marionette	DEBUG	Received DOM event "pageshow" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f684ad1946cfd8&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506921618801	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f684ad1946cfd8&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506921618804	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f684ad1946cfd8&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506921634560	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506921634582	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://annodanini.it-devgroup.com/"
+1506921634882	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df3a32da3b7437c8%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff684ad1946cfd8%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506921634885	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df3a32da3b7437c8%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff684ad1946cfd8%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506921635780	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506921637241	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506921638574	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506921640253	geckodriver	INFO	geckodriver 0.18.0
+1506921640311	geckodriver	INFO	Listening on 127.0.0.1:53485
+1506921642342	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506921643672	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506921644697	Marionette	INFO	Enabled via --marionette
+[Child 5484] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5484] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506921648858	Marionette	INFO	Listening on port 53494
+1506921648868	Marionette	INFO	Listening on port 53494
+1506921649693	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506921649750	Marionette	DEBUG	loaded listener.js
+1506921649781	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506921651533	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506921651534	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506921659604	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506921659612	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506921659856	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f3b5c0a33b17504&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506921659859	Marionette	DEBUG	Received DOM event "pageshow" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f3b5c0a33b17504&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506921659960	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f3b5c0a33b17504&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506921659961	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f3b5c0a33b17504&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506921660706	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506921660758	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://annodanini.it-devgroup.com/"
+1506921660965	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df48f3d6763a46c%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff3b5c0a33b17504%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506921660969	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df48f3d6763a46c%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff3b5c0a33b17504%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506921661073	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506921661435	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506921662291	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506922073296	geckodriver	INFO	geckodriver 0.18.0
+1506922073307	geckodriver	INFO	Listening on 127.0.0.1:54045
+1506922075259	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506922076911	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506922077749	Marionette	INFO	Enabled via --marionette
+[GPU 4760] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12124] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506922082545	Marionette	INFO	Listening on port 54054
+1506922082561	Marionette	INFO	Listening on port 54054
+1506922082604	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506922082673	Marionette	DEBUG	loaded listener.js
+1506922082701	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506922084975	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506922084976	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506922087879	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506922087890	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506922088108	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f34702aeb155d36&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506922088110	Marionette	DEBUG	Received DOM event "pageshow" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f34702aeb155d36&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506922088200	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f34702aeb155d36&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506922088202	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f34702aeb155d36&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506922092456	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506922092478	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://annodanini.it-devgroup.com/"
+1506922093508	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df305e0321a2d5fa%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff34702aeb155d36%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506922093512	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df305e0321a2d5fa%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff34702aeb155d36%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506922093523	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506922093892	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506922094639	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506922099845	geckodriver	INFO	geckodriver 0.18.0
+1506922099855	geckodriver	INFO	Listening on 127.0.0.1:54157
+1506922101903	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506922102250	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506922103280	Marionette	INFO	Enabled via --marionette
+[Child 4924] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4924] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506922107966	Marionette	INFO	Listening on port 54167
+1506922107994	Marionette	INFO	Listening on port 54167
+1506922108151	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506922108200	Marionette	DEBUG	loaded listener.js
+1506922108242	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506922110101	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506922110101	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506922117820	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506922117831	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506922118214	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f369c984d769196&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506922118218	Marionette	DEBUG	Received DOM event "pageshow" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f369c984d769196&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506922119016	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506922119040	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://annodanini.it-devgroup.com/"
+1506922119058	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f369c984d769196&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506922119060	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f369c984d769196&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506922119234	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df2b6f604ade3172%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff369c984d769196%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506922119238	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df2b6f604ade3172%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff369c984d769196%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506922119392	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506922119884	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506922120882	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506922862654	geckodriver	INFO	geckodriver 0.18.0
+1506922862663	geckodriver	INFO	Listening on 127.0.0.1:56088
+1506922864692	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506922865788	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506922866573	Marionette	INFO	Enabled via --marionette
+[Child 11668] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506922870710	Marionette	INFO	Listening on port 56096
+1506922871505	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506922871526	Marionette	INFO	Listening on port 56096
+1506922871546	Marionette	DEBUG	loaded listener.js
+1506922871576	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506922874102	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506922874103	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506922924452	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506922924460	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506922924766	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f39d09657b0cfae&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506922924767	Marionette	DEBUG	Received DOM event "pageshow" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f39d09657b0cfae&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506922924862	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f39d09657b0cfae&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506922924865	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f39d09657b0cfae&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506922929213	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506922929236	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://annodanini.it-devgroup.com/"
+1506922929451	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df805f3fb4c49e4%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff39d09657b0cfae%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506922929455	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df805f3fb4c49e4%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff39d09657b0cfae%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506922930427	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506922930817	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506922931587	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506922933143	geckodriver	INFO	geckodriver 0.18.0
+1506922933151	geckodriver	INFO	Listening on 127.0.0.1:56256
+1506922935206	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506922936269	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506922937223	Marionette	INFO	Enabled via --marionette
+[Child 8580] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8580] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506922941355	Marionette	INFO	Listening on port 56265
+1506922941361	Marionette	INFO	Listening on port 56265
+1506922941454	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506922941515	Marionette	DEBUG	loaded listener.js
+1506922941540	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506922943419	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506922943420	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506922963768	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506922963786	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506922964015	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f3ee8e4880d5de2&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506922964019	Marionette	DEBUG	Received DOM event "pageshow" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f3ee8e4880d5de2&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506922964042	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f3ee8e4880d5de2&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506922964044	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f3ee8e4880d5de2&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506922965027	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506922965048	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://annodanini.it-devgroup.com/"
+1506922965242	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df5e34be64736f%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff3ee8e4880d5de2%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506922965247	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df5e34be64736f%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff3ee8e4880d5de2%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506922965336	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506922965670	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506922966431	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506923198139	geckodriver	INFO	geckodriver 0.18.0
+1506923198157	geckodriver	INFO	Listening on 127.0.0.1:56631
+1506923200109	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506923201505	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506923202233	Marionette	INFO	Enabled via --marionette
+[Child 4900] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506923206426	Marionette	INFO	Listening on port 56639
+1506923206436	Marionette	INFO	Listening on port 56639
+1506923207476	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506923207533	Marionette	DEBUG	loaded listener.js
+1506923207597	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506923209706	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506923209707	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506923219487	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923219498	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923220247	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923220281	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://annodanini.it-devgroup.com/"
+1506923220331	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f383a50e5e26242&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923220332	Marionette	DEBUG	Received DOM event "pageshow" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f383a50e5e26242&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923220381	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f383a50e5e26242&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923220382	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f383a50e5e26242&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923220595	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df29461df83f510e%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff383a50e5e26242%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506923220598	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df29461df83f510e%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff383a50e5e26242%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506923220616	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923221019	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506923221812	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506923223046	geckodriver	INFO	geckodriver 0.18.0
+1506923223059	geckodriver	INFO	Listening on 127.0.0.1:56743
+1506923225075	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506923225998	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506923226872	Marionette	INFO	Enabled via --marionette
+1506923230678	Marionette	INFO	Listening on port 56752
+1506923230687	Marionette	INFO	Listening on port 56752
+1506923230814	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506923230871	Marionette	DEBUG	loaded listener.js
+1506923230903	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506923232789	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506923232790	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506923254655	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923254662	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923254886	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=fc4e5f055bbd8c&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923254891	Marionette	DEBUG	Received DOM event "pageshow" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=fc4e5f055bbd8c&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923255507	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923255541	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://annodanini.it-devgroup.com/"
+1506923255640	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=fc4e5f055bbd8c&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923255641	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=fc4e5f055bbd8c&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923255733	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df29deb156171b6c%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ffc4e5f055bbd8c%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506923255737	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df29deb156171b6c%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ffc4e5f055bbd8c%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506923255870	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923256206	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506923256970	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506923412543	geckodriver	INFO	geckodriver 0.18.0
+1506923412559	geckodriver	INFO	Listening on 127.0.0.1:57032
+1506923414543	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506923415669	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506923416442	Marionette	INFO	Enabled via --marionette
+[GPU 8100] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506923420444	Marionette	INFO	Listening on port 57041
+1506923420461	Marionette	INFO	Listening on port 57041
+1506923420777	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506923420829	Marionette	DEBUG	loaded listener.js
+1506923420870	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506923422778	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506923422778	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506923429025	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923429032	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923429181	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=fc6fb5dd59dbbc&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923429184	Marionette	DEBUG	Received DOM event "pageshow" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=fc6fb5dd59dbbc&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923429770	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923429812	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://annodanini.it-devgroup.com/"
+1506923429954	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=fc6fb5dd59dbbc&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923429955	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=fc6fb5dd59dbbc&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923430090	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df133d74f1a9476%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ffc6fb5dd59dbbc%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506923430093	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df133d74f1a9476%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ffc6fb5dd59dbbc%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506923430743	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923431087	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506923431864	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506923433708	geckodriver	INFO	geckodriver 0.18.0
+1506923433716	geckodriver	INFO	Listening on 127.0.0.1:57130
+1506923435905	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506923436336	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506923437064	Marionette	INFO	Enabled via --marionette
+[Child 11184] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506923440788	Marionette	INFO	Listening on port 57139
+1506923440802	Marionette	INFO	Listening on port 57139
+1506923441144	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506923441202	Marionette	DEBUG	loaded listener.js
+1506923441228	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506923443155	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506923443156	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506923444763	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923444773	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923444932	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f14dad1066ddc64&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923444933	Marionette	DEBUG	Received DOM event "pageshow" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f14dad1066ddc64&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923445077	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f14dad1066ddc64&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923445078	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f14dad1066ddc64&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923445739	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923445766	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://annodanini.it-devgroup.com/"
+1506923446028	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df1765379455bd5c%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff14dad1066ddc64%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506923446032	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df1765379455bd5c%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff14dad1066ddc64%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506923446708	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923447073	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506923447848	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506923468341	geckodriver	INFO	geckodriver 0.18.0
+1506923468349	geckodriver	INFO	Listening on 127.0.0.1:57253
+1506923470441	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506923470758	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506923471727	Marionette	INFO	Enabled via --marionette
+1506923475591	Marionette	INFO	Listening on port 57262
+1506923475600	Marionette	INFO	Listening on port 57262
+1506923475693	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506923475740	Marionette	DEBUG	loaded listener.js
+1506923475770	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506923477806	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506923477806	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506923486498	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923486505	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923487295	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923487323	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://annodanini.it-devgroup.com/"
+1506923487391	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=ff0dc10f3be0a&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923487393	Marionette	DEBUG	Received DOM event "pageshow" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=ff0dc10f3be0a&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923487431	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=ff0dc10f3be0a&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923487432	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=ff0dc10f3be0a&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923487597	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df83e0d6e0a663%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Fff0dc10f3be0a%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506923487601	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df83e0d6e0a663%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Fff0dc10f3be0a%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506923487665	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923488022	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506923488782	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506923490620	geckodriver	INFO	geckodriver 0.18.0
+1506923490629	geckodriver	INFO	Listening on 127.0.0.1:57359
+1506923492690	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506923493120	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506923493905	Marionette	INFO	Enabled via --marionette
+[GPU 6316] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3844] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3844] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506923497805	Marionette	INFO	Listening on port 57368
+1506923497848	Marionette	INFO	Listening on port 57368
+1506923497930	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506923497975	Marionette	DEBUG	loaded listener.js
+1506923498001	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506923499796	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506923499796	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506923502524	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923502532	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923502831	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f188cec456cda82&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923502834	Marionette	DEBUG	Received DOM event "pageshow" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f188cec456cda82&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923502896	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f188cec456cda82&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923502898	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f188cec456cda82&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923507546	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923507568	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://annodanini.it-devgroup.com/"
+1506923507811	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df2354e049a3e8ba%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff188cec456cda82%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506923507816	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df2354e049a3e8ba%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff188cec456cda82%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506923508434	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923508785	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506923509529	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506923525717	geckodriver	INFO	geckodriver 0.18.0
+1506923525725	geckodriver	INFO	Listening on 127.0.0.1:57477
+1506923527793	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506923528328	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506923529145	Marionette	INFO	Enabled via --marionette
+[Child 4584] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4584] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506923532642	Marionette	INFO	Listening on port 57485
+1506923532652	Marionette	INFO	Listening on port 57485
+1506923533024	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506923533067	Marionette	DEBUG	loaded listener.js
+1506923533095	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506923534981	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506923534981	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506923536730	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923536740	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923536968	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f112de9d2ed9f66&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923536970	Marionette	DEBUG	Received DOM event "pageshow" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f112de9d2ed9f66&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923537086	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f112de9d2ed9f66&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923537111	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f112de9d2ed9f66&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923537844	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923537873	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://annodanini.it-devgroup.com/"
+1506923538120	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df35ce135d71a984%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff112de9d2ed9f66%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506923538124	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df35ce135d71a984%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff112de9d2ed9f66%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506923538225	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923538576	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506923539379	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506923540773	geckodriver	INFO	geckodriver 0.18.0
+1506923540782	geckodriver	INFO	Listening on 127.0.0.1:57566
+1506923542852	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506923543204	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506923543917	Marionette	INFO	Enabled via --marionette
+[Child 12216] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12216] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506923547661	Marionette	INFO	Listening on port 57575
+1506923547679	Marionette	INFO	Listening on port 57575
+1506923548080	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506923548124	Marionette	DEBUG	loaded listener.js
+1506923548152	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506923550260	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506923550261	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506923551914	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923551926	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923552096	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f87b982a641b2&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923552099	Marionette	DEBUG	Received DOM event "pageshow" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f87b982a641b2&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923552841	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923552881	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://annodanini.it-devgroup.com/"
+1506923553009	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f87b982a641b2&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923553012	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f87b982a641b2&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923553222	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df2a4b5cca0089dc%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff87b982a641b2%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506923553227	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df2a4b5cca0089dc%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff87b982a641b2%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506923553307	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923553800	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506923554679	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506923961696	geckodriver	INFO	geckodriver 0.18.0
+1506923961704	geckodriver	INFO	Listening on 127.0.0.1:58210
+1506923963789	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506923965059	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506923966018	Marionette	INFO	Enabled via --marionette
+[GPU 6488] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11864] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6900] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6900] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506923982020	Marionette	INFO	Listening on port 58218
+1506923982025	Marionette	INFO	Listening on port 58218
+1506923982159	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506923982201	Marionette	DEBUG	loaded listener.js
+1506923982229	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506923984393	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506923984393	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506923986224	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923986234	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923986406	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f1edef4a128e4&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923986432	Marionette	DEBUG	Received DOM event "pageshow" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f1edef4a128e4&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923987003	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923987030	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://annodanini.it-devgroup.com/"
+1506923987104	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f1edef4a128e4&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923987106	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f1edef4a128e4&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506923987304	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df1591b19013a29%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff1edef4a128e4%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506923987308	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df1591b19013a29%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff1edef4a128e4%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506923987414	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506923987806	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506923988593	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506923990174	geckodriver	INFO	geckodriver 0.18.0
+1506923990182	geckodriver	INFO	Listening on 127.0.0.1:58326
+1506923992251	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506923994084	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506923994963	Marionette	INFO	Enabled via --marionette
+1506923998704	Marionette	INFO	Listening on port 58335
+1506923998723	Marionette	INFO	Listening on port 58335
+1506923999591	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506923999644	Marionette	DEBUG	loaded listener.js
+1506923999677	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506924001625	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506924001626	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506924003617	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506924003634	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506924004470	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506924004499	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://annodanini.it-devgroup.com/"
+1506924004573	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f38a87c3898ca5e&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506924004575	Marionette	DEBUG	Received DOM event "pageshow" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f38a87c3898ca5e&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506924004636	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f38a87c3898ca5e&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506924004638	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f38a87c3898ca5e&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506924004793	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df308aa90796c03%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff38a87c3898ca5e%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506924004799	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df308aa90796c03%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff38a87c3898ca5e%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506924006419	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506924006802	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506924007663	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506924008992	geckodriver	INFO	geckodriver 0.18.0
+1506924009000	geckodriver	INFO	Listening on 127.0.0.1:58430
+1506924011062	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506924012582	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506924013619	Marionette	INFO	Enabled via --marionette
+[GPU 6156] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5872] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506924017370	Marionette	INFO	Listening on port 58439
+1506924017377	Marionette	INFO	Listening on port 58439
+1506924018394	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506924018438	Marionette	DEBUG	loaded listener.js
+1506924018465	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506924020729	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506924020730	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506924022530	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506924022550	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506924022795	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f3a4c9c9da3e9f&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506924022799	Marionette	DEBUG	Received DOM event "pageshow" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f3a4c9c9da3e9f&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506924023473	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506924023502	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://annodanini.it-devgroup.com/"
+1506924023616	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f3a4c9c9da3e9f&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506924023617	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f3a4c9c9da3e9f&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506924023749	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df260e88a7d8f32%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff3a4c9c9da3e9f%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506924023750	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df260e88a7d8f32%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff3a4c9c9da3e9f%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506924024471	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506924024834	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506924025610	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506924027288	geckodriver	INFO	geckodriver 0.18.0
+1506924027298	geckodriver	INFO	Listening on 127.0.0.1:58531
+1506924029325	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506924029904	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506924030647	Marionette	INFO	Enabled via --marionette
+[Child 12196] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12196] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506924034686	Marionette	INFO	Listening on port 58541
+1506924034694	Marionette	INFO	Listening on port 58541
+1506924035071	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506924035118	Marionette	DEBUG	loaded listener.js
+1506924035150	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506924037157	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506924037158	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506924038976	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506924038989	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506924039393	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f2a4fc71f68ba14&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506924039395	Marionette	DEBUG	Received DOM event "pageshow" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f2a4fc71f68ba14&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506924040325	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506924040357	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://annodanini.it-devgroup.com/"
+1506924040435	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f2a4fc71f68ba14&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506924040438	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f2a4fc71f68ba14&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506924040642	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df1f67d2cdcc61c4%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff2a4fc71f68ba14%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506924040646	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df1f67d2cdcc61c4%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff2a4fc71f68ba14%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506924041237	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506924041617	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506924042463	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506924046166	geckodriver	INFO	geckodriver 0.18.0
+1506924046182	geckodriver	INFO	Listening on 127.0.0.1:58634
+1506924048285	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506924048632	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506924049386	Marionette	INFO	Enabled via --marionette
+[Child 5228] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506924053290	Marionette	INFO	Listening on port 58643
+1506924053296	Marionette	INFO	Listening on port 58643
+1506924053544	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506924053617	Marionette	DEBUG	loaded listener.js
+1506924053637	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506924055353	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506924055354	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506924056893	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506924056909	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506924057845	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506924057866	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://annodanini.it-devgroup.com/"
+1506924057994	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f227f421bb3b74a&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506924057997	Marionette	DEBUG	Received DOM event "pageshow" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f227f421bb3b74a&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506924057999	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f227f421bb3b74a&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506924058002	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f227f421bb3b74a&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506924058329	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df1e9bdf27158822%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff227f421bb3b74a%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506924058333	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df1e9bdf27158822%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff227f421bb3b74a%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506924058342	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506924058790	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506924059581	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506924060917	geckodriver	INFO	geckodriver 0.18.0
+1506924060928	geckodriver	INFO	Listening on 127.0.0.1:58729
+1506924062949	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506924063557	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506924064258	Marionette	INFO	Enabled via --marionette
+[Child 11256] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11256] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506924067941	Marionette	INFO	Listening on port 58738
+1506924067963	Marionette	INFO	Listening on port 58738
+1506924068237	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506924068286	Marionette	DEBUG	loaded listener.js
+1506924068307	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506924070418	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506924070418	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506924072311	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506924072324	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506924072643	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f2e335748c14378&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506924072645	Marionette	DEBUG	Received DOM event "pageshow" for "http://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f2e335748c14378&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506924073184	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506924073217	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://annodanini.it-devgroup.com/"
+1506924073286	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f2e335748c14378&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506924073287	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/Z2duorNoYeF.js?version=42#channel=f2e335748c14378&origin=http%3A%2F%2Fannodanini.it-devgroup.com"
+1506924073487	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df238b928cedb88%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff2e335748c14378%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506924073492	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&app_id=557647051076138&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FZ2duorNoYeF.js%3Fversion%3D42%23cb%3Df238b928cedb88%26domain%3Dannodanini.it-devgroup.com%26origin%3Dhttp%253A%252F%252Fannodanini.it-devgroup.com%252Ff2e335748c14378%26relation%3Dparent.parent&container_width=370&height=230&hide_cover=false&href=https%3A%2F%2Fwww.facebook.com%2Fannodaninicom&locale=ru_RU&sdk=joey&show_facepile=true&small_header=true&tabs=timeline&width=360"
+1506924074216	Marionette	DEBUG	Received DOM event "pageshow" for "http://annodanini.it-devgroup.com/"
+1506924074566	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506924075294	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506924626582	geckodriver	INFO	geckodriver 0.18.0
+1506924626596	geckodriver	INFO	Listening on 127.0.0.1:59511
+1506924628674	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506924630992	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506924632140	Marionette	INFO	Enabled via --marionette
+1506924648601	Marionette	INFO	Listening on port 59520
+1506924648995	Marionette	INFO	Listening on port 59520
+1506924649122	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506924649170	Marionette	DEBUG	loaded listener.js
+1506924649340	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506924651333	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506924651333	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
